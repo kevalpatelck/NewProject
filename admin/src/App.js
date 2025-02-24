@@ -1,5 +1,5 @@
 import './App.css';
-import{BrowserRouter,Route,Routes} from 'react-router-dom';
+import{BrowserRouter as Router,Route,Routes} from 'react-router-dom';
 
 import Adminpannel from "./components/Adminpannel";
 import Dashboard from "./components/Dashboard";
@@ -21,7 +21,7 @@ function App() {
     <div >
       <ToastContainer />
 
-      <BrowserRouter>
+      <Router>
       <Routes>
         <Route path="/" element={<Adminpannel />}>
 
@@ -39,7 +39,7 @@ function App() {
 
         </Route>
       </Routes>
-    </BrowserRouter>
+    </Router>
     </div>
   );
 }
