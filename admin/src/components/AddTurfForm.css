@@ -1,0 +1,100 @@
+/* .turf-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+} */
+
+.slot {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    display: inline-block;
+}
+
+.slot.selected {
+    background-color: lightgreen; /* Or any color you prefer */
+    border-color: green;
+    color: black;
+}
+.map-container {
+    height: 150px; /* Adjust height as needed */
+    width: 100%;
+  }
+  
+
+.turf-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-height: 600px; /* Set a max height for the form */
+    overflow-y: auto; /* Allow vertical scrolling when content overflows */
+}
+
+
+.time-selection button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: rgb(121, 54, 54);
+}
+
+.time-selection .active {
+    background-color: #28a745;
+}
+
+.slots-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.slot {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.modal-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-button {
+    margin-top: 15px;
+    background: red;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
